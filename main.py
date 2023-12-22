@@ -87,10 +87,9 @@ def function():
                     )
                     if fourth_words == set():
                         break
-                    else:
-                        for fifth_word in fifth_words:
-                            print({word, second_word, third_word, fourth_word, fifth_word})
-                            return
+                    for fifth_word in fifth_words:
+                        print({word, second_word, third_word, fourth_word, fifth_word})
+                        return
 
 
 function()
